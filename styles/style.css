@@ -1,0 +1,117 @@
+#SitesName{
+    color: #000000;
+    font: 400 30px / 24px Inconsolata;
+    display: inline-block;
+}
+#Size {
+    color: #ffffff;
+    font: 300 48px Ubuntu;
+    padding-top: 100px;
+
+}
+.header{
+    color: #626262;
+    font: 400 30px PlayfairDisplay;
+}
+#Banner {
+    color: #ffffff;
+    font: 300 14px Ubuntu;
+}
+.Text {
+    color: #626262;
+    font: 400 14px / 24px PlayfairDisplay;
+}
+.Clause {
+    text-align: right;
+    color: #626262;
+    font: 400 14px / 24px PlayfairDisplay;
+    display: inline-block;
+    margin: 45px;
+}
+#MainText {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 659px;
+    
+}
+#Notes {
+    vertical-align:top;
+    display: inline-block;
+    max-width: 272px;
+    margin-left: 70px;
+    text-align: center;
+}
+#Navigation {
+    display: inline-flex;
+    align-items: right;
+    justify-content: right;
+}
+#Bann {
+    width: 250px;
+    height: 250px;
+    background: url(../images/Banner.png);
+    align-content: center;
+}
+#footer {
+    background-color: #d9d9d9;
+    min-width: inherit;
+    padding: 45px;
+}
+.FooterDev {
+    display: inline-block;
+}
+.Body {
+    box-sizing: border-box;
+    min-width: 1145px;
+    /*max-width: 1300px;
+    /*padding: 69px;*/
+}
+#HeaderNotes {
+    color: #626262;
+    font: 400 24px / 20px PlayfairDisplay;
+}
+.TextNotes {
+    color: #626262;
+    font: 400 16px PlayfairDisplay;
+}
+.Link {
+    color: #b4ad9e;
+    font: 300 14px Ubuntu;
+}
+.MainPictere {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.ClauseTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+/*.SocNet {
+    margin: 50px;
+}*/
+
+.ImgBlocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#Table {
+    overflow:auto;
+}
+
+#header {
+    margin: 69px;
+}
+
+#main {
+    margin: 69px;
+}
+
+.MainPifctere {
+    margin-bottom: 70px;
+}
