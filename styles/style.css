@@ -1,117 +1,161 @@
-#SitesName{
-    color: #000000;
-    font: 400 30px / 24px Inconsolata;
-    display: inline-block;
-}
-#Size {
-    color: #ffffff;
-    font: 300 48px Ubuntu;
-    padding-top: 100px;
 
-}
-.header{
-    color: #626262;
-    font: 400 30px PlayfairDisplay;
-}
-#Banner {
-    color: #ffffff;
-    font: 300 14px Ubuntu;
-}
-.Text {
-    color: #626262;
-    font: 400 14px / 24px PlayfairDisplay;
-}
-.Clause {
-    text-align: right;
-    color: #626262;
-    font: 400 14px / 24px PlayfairDisplay;
-    display: inline-block;
-    margin: 45px;
-}
-#MainText {
-    box-sizing: border-box;
-    display: inline-block;
-    max-width: 659px;
-    
-}
-#Notes {
-    vertical-align:top;
-    display: inline-block;
-    max-width: 272px;
-    margin-left: 70px;
-    text-align: center;
-}
-#Navigation {
-    display: inline-flex;
-    align-items: right;
-    justify-content: right;
-}
-#Bann {
-    width: 250px;
-    height: 250px;
-    background: url(../images/Banner.png);
-    align-content: center;
-}
-#footer {
-    background-color: #d9d9d9;
-    min-width: inherit;
-    padding: 45px;
-}
-.FooterDev {
-    display: inline-block;
-}
 .Body {
-    box-sizing: border-box;
-    min-width: 1145px;
-    /*max-width: 1300px;
-    /*padding: 69px;*/
+    min-width: 1062px;
+    max-width: 1100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
 }
-#HeaderNotes {
-    color: #626262;
-    font: 400 24px / 20px PlayfairDisplay;
+
+.Header {
+    overflow: auto;
+    margin-bottom: 60px;
 }
-.TextNotes {
-    color: #626262;
-    font: 400 16px PlayfairDisplay;
-}
+
 .Link {
     color: #b4ad9e;
     font: 300 14px Ubuntu;
 }
-.MainPictere {
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-.ClauseTwo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
+
+.Нeader__Logo {
+    display: inline-block;    
 }
 
-/*.SocNet {
-    margin: 50px;
-}*/
-
-.ImgBlocks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
+.Nav {
+    display: inline-block; 
+    float: right;
 }
 
-#Table {
-    overflow:auto;
+.Nav__List {
+    list-style:none;
 }
 
-#header {
-    margin: 69px;
+.Nav__List_Link{
+    color: #626262;
+    font: 400 14px / 24px PlayfairDisplay;
 }
 
-#main {
-    margin: 69px;
+.Main {
 }
 
-.MainPifctere {
-    margin-bottom: 70px;
+.Gallery {
+    display: block;
+    margin: auto;
+}
+
+.Gallery__Img {
+    margin-top: 57px;
+}
+
+.Section {
+    display: inline-block;
+    max-width: 700px;
+    margin-right: 70px;
+}
+
+.Article {
+    display: block;
+    text-align: left;
+}
+
+.Article__Header {
+    color: #626262;
+    font: 400 30px PlayfairDisplay;
+}
+
+.Article__Text {
+    color: #626262;
+    font: 400 14px PlayfairDisplay;
+}
+
+.Gallery__Signature {
+    color: #626262;
+    font: italic 14px PlayfairDisplay;
+}
+
+.ArticleFooter {
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    float:right;
+}
+
+.ArticleFooter__Text {
+    color: #b4ad9e;
+    font: 300 13px / 24px Ubuntu;
+}
+
+.ImgsLink {
+    display: inline-block;
+    
+}
+
+.ImgsLink__ImgLink {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.Aside {
+    display: inline-block;
+    max-width: 272px;
+    min-width: 272px;
+    vertical-align: top;
+}
+
+.Article__List {
+    
+}
+
+.Banner {
+    background: url("../images/Banner.png");
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Banner__Header {
+    display: block;
+    color: #ffffff;
+    font: 300 48px Ubuntu;
+}
+
+.Banner__Text {
+    display: block;
+    color: #ffffff;
+    font: 300 14px Ubuntu;
+}
+
+.Footer {
+    background-color: #d9d9d9;
+    min-height: 100px;
+    align-content: center;
+}
+
+.Footer__Links {
+    display: inline-block;
+    margin: 40px;
+}
+
+.Footer__Follow {
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+
+.Nav__List_Item {
+    float: left;
+    margin-right: 60px;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+.Article__Text_Strong {
+    font-weight: bold;
+}
+
+.Link_ForFooter {
+    color: #000000;
+    font: 400 14px PlayfairDisplay;
+    margin-right: 10px;
 }
